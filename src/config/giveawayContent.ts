@@ -1,38 +1,36 @@
-
 // This file centralizes all editable content for the giveaway page
 
 // Prize section
 export const prizeImages = [
-  "https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=1000", // Main cheese board
-  "https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=500", // Cheese assortment
-  "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=500", // Olives and cheese
+  "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwyfHxjYWZlfGVufDB8fHx8MTc0NjU0ODY4MHww&ixlib=rb-4.1.0",
+  "https://images.unsplash.com/photo-1481833761820-0509d3217039?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHw2fHxjYWZlfGVufDB8fHx8MTc0NjU0ODY4MHww&ixlib=rb-4.1.0", 
+  "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwxMHx8Y2FmZXxlbnwwfHx8fDE3NDY1NDg2ODB8MA&ixlib=rb-4.1.0", 
 ];
-
 export const prizeContent = {
-  title: "Gourmet Cheese Board Gift Basket",
-  description: "This curated gift basket is perfect for an at-home charcuterie night. Featuring a handcrafted wooden cheese board, assortment of fine cheeses, olives, sea salt pretzels, chocolate bark, and a premium knife set—everything you need for a delicious evening with your loved ones.",
+  title: "Professional Spring Cleaning Makeover",
+  description: "Refresh your home with our exclusive Professional Spring Cleaning Giveaway! Enjoy a thorough cleaning service valued at $300 that transforms your living space into a spotless haven—perfect for busy professionals ready to say goodbye to winter blues.",
   features: [
-    "Assorted gourmet cheeses & olives - expertly selected and paired for rich, balanced flavor",
-    "Sea salt pretzels & chocolate bark - the perfect mix of crunchy, salty, and sweet indulgence",
-    "Handcrafted wooden cheese tray with premium knife set for effortless serving",
-    "Free delivery directly to your door in Vaughan",
-    "Perfect for a cozy night in with family and friends",
+    "Comprehensive cleaning of all rooms including dusting, vacuuming, and mopping",
+    "Pristine kitchen and bathroom detailing",
+    "Elimination of cobwebs, dust bunnies, and clutter",
+    "Free professional consultation for a personalized cleaning plan",
+    "Ideal for busy young professionals seeking a refreshed space"
   ],
-  value: "$175",
+  value: "$300",
 };
 
 // Header section
 export const headerContent = {
-  title: "Win a Curated Cheese Board Gift Basket!",
-  description: "Perfect for Vaughan families looking for a cozy night in! Enter for a chance to win our exclusive cheese board package valued at $175. No purchase necessary.",
+  title: "Win a $300 Professional Spring Cleaning Makeover!",
+  description: "Tired of the winter mess? Enter now for a chance to reclaim your time and enjoy a sparkling, stress-free home with our exclusive spring cleaning giveaway.",
   ctaText: "Enter Now",
   heroImage: prizeImages[0],
-  secondaryImage: prizeImages[1], // Add secondary image for the header
+  secondaryImage: prizeImages[1],
 };
 
 // Navigation section
 export const navigationContent = {
-  title: "Cheese Board Giveaway",
+  title: "Spring Cleaning Giveaway",
   links: [
     { name: 'Home', href: '#' },
     { name: 'Prize Details', href: '#prize' },
@@ -45,39 +43,39 @@ export const navigationContent = {
 // How to Enter section
 export const howToEnterContent = {
   title: "How to Enter",
-  description: "Getting started is easy! Follow these simple steps to enter our giveaway.",
+  description: "Entering our Professional Spring Cleaning Giveaway is easy! Follow these simple steps for a chance to win a $300 cleaning service that will leave your home immaculate.",
   steps: [
     {
       icon: "Mail",
       title: "Fill Out the Form",
-      description: "Enter your email address and name in the form and submit it."
+      description: "Provide your name and email address using the quick sign-up form."
     },
     {
       icon: "Share2",
       title: "Share with Friends",
-      description: "Share this giveaway on social media for extra entries."
+      description: "Spread the word on social media for extra entries and a higher chance to win."
     },
     {
       icon: "Users",
       title: "Confirm Entry",
-      description: "Check your email to confirm your entry and you're all set!"
+      description: "Keep an eye on your email to confirm your entry and secure your spot."
     }
   ],
   benefits: [
     { 
       icon: "Clock", 
       title: "Quick & Easy", 
-      desc: "Takes less than a minute" 
+      desc: "Entry takes less than a minute" 
     },
     { 
       icon: "Trophy", 
-      title: "Multiple Entries", 
-      desc: "Share for more chances" 
+      title: "Extra Chances", 
+      desc: "Earn additional entries by sharing"
     },
     { 
       icon: "Gift", 
-      title: "Premium Prize", 
-      desc: "Valued at $175" 
+      title: "Spotless Home", 
+      desc: "Professional cleaning service valued at $300" 
     }
   ],
   formLabels: {
@@ -93,7 +91,7 @@ export const howToEnterContent = {
   },
   successMessage: {
     title: "Entry Submitted!",
-    description: "Check your email to confirm your entry."
+    description: "Thank you for entering! Please check your email to confirm your entry."
   },
   currentEntries: 482
 };
@@ -101,50 +99,50 @@ export const howToEnterContent = {
 // Rules section
 export const rulesContent = {
   title: "Rules & Eligibility",
-  description: "Please review the following rules and eligibility requirements before entering the giveaway.",
+  description: "Before entering our giveaway, please review the rules and eligibility requirements. We want everyone to have a fair chance at winning our Professional Spring Cleaning Makeover.",
   rules: [
     {
       question: "Who is eligible to enter?",
-      answer: "Anyone 18 years or older residing in the Vaughan area can enter this giveaway.",
+      answer: "Anyone 18 years or older is welcome to enter this giveaway."
     },
     {
       question: "How long does the giveaway run?",
-      answer: "This giveaway runs until February 2nd, 2025, as indicated by the countdown timer.",
+      answer: "The promotion kicks off on May 6, 2025, and runs until May 31, 2025."
     },
     {
       question: "How will the winner be selected?",
-      answer: "The winner will be selected randomly from all valid entries. We use a certified random selection tool to ensure fairness.",
+      answer: "A winner will be chosen at random from all valid entries using a certified random selection process."
     },
     {
       question: "When and how will the winner be notified?",
-      answer: "The winner will be notified via email within 48 hours after the giveaway ends. They must respond within 72 hours to claim their prize.",
+      answer: "The winner will be notified via email within 48 hours of the giveaway closing. They must respond within 72 hours to claim the prize."
     },
     {
-      question: "How many times can I enter?",
-      answer: "Each person may enter once. Additional entries can be earned through sharing on social media (up to 3 additional entries).",
+      question: "Can I enter more than once?",
+      answer: "Each individual may submit one entry. Additional entries can be earned by sharing the giveaway on social media (up to 3 extra entries)."
     },
     {
-      question: "Is my information secure?",
-      answer: "Yes, we take privacy seriously. Your information will only be used for this giveaway and will not be shared with third parties.",
-    },
+      question: "How is my personal information handled?",
+      answer: "Your information is securely stored and will be used solely for the purposes of this giveaway. We do not share your data with third parties."
+    }
   ],
   imageUrl: "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=800",
   tipsForEntering: [
-    "Double-check your email address before submitting your entry",
-    "Share on social media for additional entry opportunities",
-    "Set a calendar reminder for the drawing date"
+    "Double-check your email address for accuracy before submitting",
+    "Share the giveaway on your social media platforms for more chances to win",
+    "Mark your calendar for the draw on May 31, 2025"
   ],
-  importantNotice: "All winners will be contacted via the email provided during entry. Make sure to check your inbox (and spam folder) regularly after the giveaway ends.",
+  importantNotice: "Winners will be contacted by email. Please ensure to check your inbox and spam folder regularly after the giveaway ends.",
   supportEmail: "support@giveaway.com",
-  termsText: "By entering, you agree to all rules and terms.",
+  termsText: "By entering, you agree to all rules and guidelines of the giveaway.",
   downloadRulesText: "Download Full Rules PDF"
 };
 
 // Contact section
 export const contactContent = {
   title: "Get In Touch",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  email: "daaron@property.ca",
+  phone: "",
   brokerage: {
     name: "Toronto Sports Entertainment",
     address: "123 Arena Blvd, Toronto"
@@ -156,9 +154,9 @@ export const contactContent = {
 
 // Footer section
 export const footerContent = {
-  aboutText: "The Raptors Giveaway specializes in offering exclusive prizes to our dedicated fans.",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  aboutText: "Our Professional Spring Cleaning Giveaway is designed to help busy professionals enjoy a spotless and stress-free living space without lifting a finger.",
+  email: "daaron@property.ca",
+  phone: "",
   quickLinks: ["Home", "About", "Listings", "Contact", "Privacy Policy"],
   newsletterText: "Subscribe to our newsletter for the latest updates on giveaways and exclusive offers.",
   brokerage: {
@@ -173,7 +171,7 @@ export const footerContent = {
 
 // Countdown
 export const countdownContent = {
-  endDate: new Date("February 2, 2025") 
+  endDate: new Date("May 31, 2025") 
 };
 
 // Color scheme configuration for the entire giveaway
